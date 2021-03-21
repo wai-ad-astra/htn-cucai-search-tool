@@ -32,7 +32,7 @@ def get_bookmarks():
     result = None
     if video_ID:
         if object_name:
-            print(f'for {object_name}')
+            # print(f'for {object_name}')
             result = DUMMY_DICT.get(object_name, {})
         else:
             print('all objects')
